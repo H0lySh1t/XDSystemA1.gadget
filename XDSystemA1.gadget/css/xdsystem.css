@@ -1,0 +1,53 @@
+body{
+ width: 130px;
+ height: 119px;
+ margin: 0px;
+ border: none;
+ color: black;
+}
+.cpubox{
+ position:absolute;
+ top: 40px;
+ left: 4px;
+ width: 90px;
+ height: 75px;
+ display:none;
+}
+.pbar{
+ position:absolute;
+ bottom:13px;
+ left:3px;
+ width:2px;
+ height:1px;
+ background-color:#aaaaab;
+ overflow:hidden;
+ z-index:1;
+}
+.name{
+ position:absolute;
+ bottom:0px;
+ left:4px;
+ width:45px;
+ font-family:arial;
+ font-weight:bold;
+ font-size:10px;
+ color:#aaaaab;
+}
+.percent{
+ position:absolute;
+ bottom:0px;
+ left:52px;
+ width:40px;
+ font-family:arial;
+ font-weight:bold;
+ font-size:10px;
+ color:#aaaaab;
+ text-align:right;
+}
+.memory{
+ width:19px;
+ height:2px;
+ margin:0px 0px 1px 0px;
+ background-color:#aaaaab;
+ overflow:hidden;
+}

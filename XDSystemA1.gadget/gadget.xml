@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>System Control A1</name>
+  <namespace>xyberdyn.gadgets</namespace>
+  <version>1.0.0.2</version>
+  <author name="XyberDyn">
+    <info url="http://www.xyberdyn.com/tools.htm" text="www.xyberdyn.com"/>
+    <logo src="logo.png"/>
+  </author>
+  <copyright>© 2007-2017</copyright>
+  <description>Control the system time, system uptime, CPU load history and memory usage. Supported cores: 1,2,4,8,12,16</description>
+    <icons>
+      <icon height="48" width="48" src="icon.png"/>
+    </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="html" apiVersion="1.0.0" src="xdsystem.html"/>
+      <permissions>full</permissions>
+      <platform minPlatformVersion="1.0"/>
+      <defaultImage src="drag.png"/>
+    </host>
+  </hosts>
+</gadget>
